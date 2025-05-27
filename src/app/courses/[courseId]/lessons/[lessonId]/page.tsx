@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo } from 'react';
-import { useParams, useRouter }_ from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/hooks/useAuth';
 import { useCourseData } from '@/hooks/useCourseData';
